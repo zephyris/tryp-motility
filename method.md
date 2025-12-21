@@ -33,7 +33,6 @@ Darkfield microscopy often possible on microscopes with no special configuration
 An uncompressed (eg. TIFF) video is much better than a compressed (eg. AVI, MP4, MPG, etc.) video. Video compression is not well-optimised for small moving particles and adds artefacts.
 
 ## Output
-Open the video and run 1ParticleTrackingv4.ijm`.
-THis outputs a data file with one row per cell track. When considering this data, it is best to weight by track length in seconds to avoid biasing towards swimming behaviour which tend to give short tracks.
+Analysis outputs a data file with one row per cell track. When considering this data, it is best to weight by track length in seconds to avoid biasing towards swimming behaviour which tend to give short tracks.
 
 The simplest analysis is mean swimming speed from each of three or four videos. These those three or four data points can be compared using t-test (as central limit theorem is met) to a control sample.
